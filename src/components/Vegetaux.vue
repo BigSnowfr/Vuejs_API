@@ -20,7 +20,7 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>{{ vegetaux.code_de_la_plante }}</td>
+                    <td><button @click="getVegetalByName(vegetaux.nom_commun)">{{ vegetaux.code_de_la_plante }}</button></td>
                     <td>{{ vegetaux.genre }}</td>
                     <td>{{ vegetaux.espece }}</td>
                     <td>{{ vegetaux.cultivar }}</td>
